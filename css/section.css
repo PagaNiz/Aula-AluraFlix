@@ -26,6 +26,7 @@
     .alinhamento{
         flex-direction: column;
         text-align: center;
+        padding-top: 50px;
     }
     .reverse{
         flex-direction: column-reverse;
