@@ -38,3 +38,9 @@
         align-items: center;
     }
 }
+
+@media(min-width: 1201px){
+    .textsection{
+        width: 588px;
+    }
+}
