@@ -1,0 +1,71 @@
+.cabecalho{
+    background-image: url("/img/Background.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.cabecalho_box{
+    padding: 125px 0 0 54px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    width: 35%;
+}
+
+.h2gp1{
+    text-align: center;
+}
+
+.imgcombo{
+    display: flex;
+    justify-content: center;
+}
+
+.combogp1{
+    padding: 22px 0px 54px 0px;
+}
+
+.nav_gp1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.assinar_only_gp1{
+    background-color: unset !important;
+    border: 1px solid var(--branco-primario);
+}
+
+.assinar_only_gp1:hover{
+    background-color: rgb(255, 255, 255, 0.1) !important;
+}
+
+.textogp1{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media(max-width: 700px){
+    .cabecalho_box{
+        display: flex;
+        width: auto;
+        align-items: center;
+        padding: 5%;
+        background-color: rgb(0, 3, 12, 0.6);
+        box-shadow: 0px -30px 60px 10px #00030C inset;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px){
+    .cabecalho_box{
+        padding: 10%;
+        width: auto !important;
+        display: flex;
+        align-items: center;
+        background-color: rgb(0, 3, 12, 0.6);
+        box-shadow: 0px -30px 60px 10px #00030C inset;
+    }
+}

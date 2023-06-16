@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('/css/group1.css');
+@import url('/css/section.css');
+@import url('/css/dispositivos.css');
+@import url('/css/rodape.css');
+
+:root{
+    /* cores */
+    --branco-primario: #f6f6f6;
+    --cinza-secundario: #C0C0C0;
+    --azul-botao: #167BF7;
+    --cor-background: #00030C; 
+
+    /* fontes */
+    --fonte-principal: 'Inter', sans-serif; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-background);
+    color: var(--branco-primario);
+    font-family: var(--fonte-principal);
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco-primario);
+}
+
+.fw700{
+    font-weight: 700;
+}
+
+.fw400{
+    font-weight: 400;
+}
+
+.button{
+    background-color: var(--azul-botao);
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover{
+    background-color: rgb(22,123,247, 0.1);
+}
+
+.texto_cinza{
+    color: var(--cinza-secundario);
+}
+
+.texto_principal{
+    font-size: 16px;
+}
+
+@media(max-width: 1200px){
+    .alinhamento,
+    .dispositivos,
+    .rodape
+    {
+        padding: 0 50px;
+    }
+}

@@ -1,0 +1,38 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 145px;
+}
+
+.imgrodape{
+    width: 102px;
+    height: 35.28px;
+}
+
+.listarodape{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding-top: 47.71px;
+}
+
+.textorodape{
+    padding: 24px 0px 48px 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media(max-width: 700px){
+
+}
+
+@media screen and (max-width: 1200px){
+    .rodape{
+        padding-top: 50px;
+    }
+    .listarodape{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
