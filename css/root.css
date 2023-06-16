@@ -60,11 +60,11 @@ a{
     font-size: 16px;
 }
 
-@media(max-width: 1200px){
+/* @media(max-width: 1200px){
     .alinhamento,
     .dispositivos,
     .rodape
     {
         padding: 0 50px;
     }
-}
+} */

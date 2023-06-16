@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 1200px){
     .rodape{
-        padding-top: 50px;
+        padding: 50px 30px 0px 30px;
     }
     .listarodape{
         flex-wrap: wrap;
